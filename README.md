@@ -15,3 +15,7 @@ First project focused on web development
   <li>Add more detail and strengthen information.</li>
  </ul>
   
+<br>
+
+<h2>Newest Update</h2>
+<p>Website is now live! Visit at <a href="MurtajizMehdi.Github.io>MurtajizMehdi.github.io</a>.</p>
