@@ -18,4 +18,4 @@ First project focused on web development
 <br>
 
 <h2>Newest Update</h2>
-<p>Website is now live! Visit at <a href="https://murtajizmehdi.github.io/" target ="_blank">MurtajizMehdi.github.io</a>.</p>
+<p>Website is now live! Visit at <a href="https://murtajizmehdi.github.io/" target="_blank">MurtajizMehdi.github.io</a>.</p>
