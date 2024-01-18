@@ -1,22 +1,4 @@
-/* Stylesheet location  */
-
-
-/* Global Styles 
------------------------------------*/
-
-
-/* ------ Optional selector for ENTIRE document
-
-* {
-    
-}
-
--------- end of Optional selector for ENTIRE document */ 
-html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
+*, *:before, *:after {
     box-sizing: inherit;
   }
 
@@ -76,7 +58,7 @@ header {
     background-color: #2F3061;
     color: #F7FFF7;
     background-size: contain;
-    
+    text-shadow: 5px 5px black;
 }
 
 #HeaderBio {
@@ -89,7 +71,8 @@ header {
     background-color: #F7FFF7;
 }
 
-.ProjectOne-TicTacToe a, .ProjectTwo-KingsLanding a {
+.ProjectOne-TicTacToe a, .ProjectTwo-KingsLanding a, .Project3 a, 
+.Project4 a {
     color: #F7FFF7;
     background-color: #2F3061;
     text-decoration: none;
@@ -98,11 +81,11 @@ header {
     display: inline-block;
 }
 
-.ProjectOne-TicTacToe img {
+.ProjectOne-TicTacToe img, .Project3 img, .Project4 img {
     width: 600px;
 }
 
-.ProjectOne-TicTacToe {
+.ProjectOne-TicTacToe, .ProjectTwo-KingsLanding, .Project3 {
     border-bottom: 1px dashed #343434;
     padding: 25px 0;
 }
@@ -119,9 +102,13 @@ header {
     column-gap: 20px;
 }
 
-.job-one {
+ .job-one {
     border-bottom: 1px dashed #343434;
 }
+
+/* .job-two {
+    border-bottom: 1px dashed #343434;
+}  */
 
 /* Education and Certificates
 ---------------------------------- */
@@ -196,9 +183,9 @@ footer a {
         padding: 5px;
     }
     
-     .ProjectOne-TicTacToe img {
+     .ProjectOne-TicTacToe img, .Project3 img {
         width: 100%;
         height: auto;
     }
-    
+
 }
